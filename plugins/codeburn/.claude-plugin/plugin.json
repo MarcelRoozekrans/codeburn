@@ -9,5 +9,6 @@
   "homepage": "https://codeburn.app",
   "repository": "https://github.com/getagentseal/codeburn",
   "license": "MIT",
+  "privacyPolicyUrl": "https://codeburn.app/docs/privacy",
   "keywords": ["cost", "tokens", "usage", "claude-code", "codex", "cursor"]
 }

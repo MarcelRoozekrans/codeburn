@@ -232,6 +232,8 @@ Your prompts, your code and your project names stay on your computer. CodeBurn d
 
 Prices come from [LiteLLM](https://github.com/BerriAI/litellm) and refresh once a day.
 
+Everything that does leave your machine is listed in [Privacy](https://codeburn.app/docs/privacy).
+
 ## Built in the open
 
 MIT licensed. Development happens in this repo.
