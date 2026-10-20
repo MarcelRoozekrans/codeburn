@@ -148,6 +148,14 @@ Setup for all three platforms, including WSL, is in [Menu bar and tray](docs/men
 
 ## Inside your agent
 
+In Claude Code, install the plugin. It sets up the MCP server below and adds `/codeburn:cost`, which summarizes today's spend:
+
+```
+/plugin install codeburn --marketplace getagentseal/codeburn
+```
+
+Or register only the MCP server:
+
 ```bash
 claude mcp add codeburn -- npx -y codeburn mcp
 ```

@@ -1,0 +1,13 @@
+{
+  "name": "codeburn",
+  "version": "1.0.0",
+  "description": "See what your AI coding tools cost: a /codeburn:cost summary and CodeBurn's usage tools inside Claude Code",
+  "author": {
+    "name": "CodeBurn",
+    "url": "https://codeburn.app"
+  },
+  "homepage": "https://codeburn.app",
+  "repository": "https://github.com/getagentseal/codeburn",
+  "license": "MIT",
+  "keywords": ["cost", "tokens", "usage", "claude-code", "codex", "cursor"]
+}
