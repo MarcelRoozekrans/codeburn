@@ -43,7 +43,7 @@ Every surface's updater reads its own channel, and the menubar and `codeburn upd
 
 1. `npm publish`.
 2. Wait until the tarball downloads: run `npm pack codeburn@<version>` in a temp directory until it writes `codeburn-<version>.tgz`.
-3. MCP Registry: set both `version` fields in `server.json` to the new version, then run `mcp-publisher publish` (log in once with `mcp-publisher login github` as an owner of the getagentseal org).
+3. MCP Registry and Claude Code plugin: set the new version in both `version` fields of `server.json` and in the `codeburn@<version>` pins in `plugins/codeburn/.mcp.json` and `plugins/codeburn/skills/cost/SKILL.md`, and bump `version` in `plugins/codeburn/.claude-plugin/plugin.json`. Then run `mcp-publisher publish` (log in once with `mcp-publisher login github` as an owner of the getagentseal org).
 4. Homebrew: `brew bump-formula-pr` (see "Homebrew Core") and bump the tap (CLI step 5b).
 5. GitHub `v<version>` release.
 6. Push `mac-v<version>` (writes `menubar-latest.json`).
